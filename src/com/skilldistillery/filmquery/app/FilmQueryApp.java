@@ -23,7 +23,7 @@ public class FilmQueryApp {
 //		System.out.println(film);
 //	}
 
-	private void launch() throws SQLException {
+	private void launch(){
 		Scanner input = new Scanner(System.in);
 
 		// only scanner here
@@ -97,7 +97,6 @@ public class FilmQueryApp {
 
 	private void displayFilms(Film film) {
 		System.out.println("=======++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=======");
-		// System.out.println(film.toString() + film.getActors());
 		System.out.println("Title: " + film.getTitle());
 		System.out.println("Year Released: " + film.getReleaseYear());
 		System.out.println("Rating: " + film.getRating());
